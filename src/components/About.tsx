@@ -1,6 +1,7 @@
 import { MapPin, Briefcase, Download, Github, MessageCircle } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import profilePhoto from '@/assets/profile-photo.jpeg';
+import resumePdf from '@/assets/frontend_resume_lakshmanan.pdf.asset.json';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -106,7 +107,10 @@ const About = () => {
                 Hire Me
               </a>
               <a
-                href="#"
+                href={resumePdf.url}
+                download="Lakshmanan_M_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`flex items-center gap-2 px-6 py-3 rounded-full bg-secondary border border-border font-medium
                            hover:border-primary/50 hover:bg-primary/10 transition-all duration-1000 ease-out ${
                   isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'
