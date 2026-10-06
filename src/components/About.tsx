@@ -60,7 +60,7 @@ const About = () => {
               }`}
               style={{ transitionDelay: '600ms' }}
             >
-              Full Stack Developer
+              Frontend Developer
             </h3>
 
             {/* Description - slide from right */}
@@ -114,7 +114,7 @@ const About = () => {
                 style={{ transitionDelay: '1400ms' }}
               >
                 <Download size={18} />
-                Download CV
+                Download Resume
               </a>
             </div>
 
