@@ -107,7 +107,7 @@ const Hero = () => {
                     PROFILE
                   </a>
                   <a
-                    href="https://github.com/lachu-4/portfolio-reel-showcase.git"
+                    href="https://github.com/lachu-4/frontend-portfolio"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`flex items-center gap-2 px-5 py-3 rounded-full bg-secondary border border-border
