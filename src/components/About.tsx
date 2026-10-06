@@ -1,6 +1,7 @@
 import { MapPin, Briefcase, Download, Github, MessageCircle } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import profilePhoto from '@/assets/profile-photo.jpeg';
+import resumePdf from '@/assets/frontend_resume_lakshmanan.pdf.asset.json';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
